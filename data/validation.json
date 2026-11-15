@@ -1,0 +1,82 @@
+[
+ {
+  "site": "El Pinacate, Sonora",
+  "expected": "moon",
+  "target": "moon_mons_mouton",
+  "cell": [
+   32,
+   -113.75
+  ],
+  "score": 54.714285714285715,
+  "rank": 121,
+  "n": 351,
+  "top_pct": 34.472934472934476,
+  "parts": {
+   "dryness": 0.9342857142857143,
+   "temp_swing": 0.33714285714285713,
+   "cold": 0.24857142857142855,
+   "sunshine": 0.8242857142857143,
+   "terrain": 0.23142857142857143
+  }
+ },
+ {
+  "site": "El Pinacate, Sonora",
+  "expected": "moon",
+  "target": "mars_gale",
+  "cell": [
+   32,
+   -113.75
+  ],
+  "score": 57.93506493506493,
+  "rank": 118,
+  "n": 351,
+  "top_pct": 33.61823361823362,
+  "parts": {
+   "dryness": 0.9342857142857143,
+   "temp_swing": 0.33714285714285713,
+   "cold": 0.24857142857142855,
+   "sunshine": 0.8242857142857143,
+   "terrain": 0.23142857142857143
+  }
+ },
+ {
+  "site": "Cuatro Ciénegas, Coahuila",
+  "expected": "mars",
+  "target": "moon_mons_mouton",
+  "cell": [
+   27,
+   -101.875
+  ],
+  "score": 52.51020408163265,
+  "rank": 156,
+  "n": 351,
+  "top_pct": 44.44444444444444,
+  "parts": {
+   "dryness": 0.5885714285714285,
+   "temp_swing": 0.40285714285714286,
+   "cold": 0.38,
+   "sunshine": 0.17285714285714285,
+   "terrain": 0.76
+  }
+ },
+ {
+  "site": "Cuatro Ciénegas, Coahuila",
+  "expected": "mars",
+  "target": "mars_gale",
+  "cell": [
+   27,
+   -101.875
+  ],
+  "score": 51.441558441558435,
+  "rank": 183,
+  "n": 351,
+  "top_pct": 52.136752136752136,
+  "parts": {
+   "dryness": 0.5885714285714285,
+   "temp_swing": 0.40285714285714286,
+   "cold": 0.38,
+   "sunshine": 0.17285714285714285,
+   "terrain": 0.76
+  }
+ }
+]

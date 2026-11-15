@@ -1,0 +1,72 @@
+{
+ "moon_mons_mouton": {
+  "name": "Mons Mouton Plateau (Lunar South Pole)",
+  "short_name": "Mons Mouton",
+  "body": "Moon",
+  "description": "A high, mountainous plateau near the Moon's south pole. NASA lists it as one of the candidate regions for the Artemis III landing.",
+  "weights": { "dryness": 1.0, "temp_swing": 1.0, "cold": 0.0, "sunshine": 0.5, "terrain": 1.0 },
+  "facts": [
+   {
+    "label": "Artemis III",
+    "value": "One of nine candidate landing regions announced by NASA (Oct 2024)",
+    "source_url": "https://www.nasa.gov/news-release/nasa-identifies-candidate-regions-for-landing-next-americans-on-moon/"
+   },
+   {
+    "label": "Gravity",
+    "value": "1.62 m/s² (Earth: 9.8)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+   },
+   {
+    "label": "Air pressure",
+    "value": "≈3×10⁻¹⁵ bar (practically a vacuum)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+   },
+   {
+    "label": "Temperature at the equator",
+    "value": "95 K to 390 K (−178 °C to +117 °C)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+   }
+  ],
+  "earth_cannot_simulate": [
+   "1/6 g gravity (1.62 m/s²)",
+   "Hard vacuum — no air for convective cooling, no wind",
+   "Radiation environment (no magnetic field or atmosphere)",
+   "Lunar regolith: sharp, electrostatically charged dust"
+  ]
+ },
+ "mars_gale": {
+  "name": "Gale Crater (Curiosity rover site)",
+  "short_name": "Gale Crater",
+  "body": "Mars",
+  "description": "A large crater with a flat floor and a tall central mountain, where the Curiosity rover has driven since 2012. Its mountain holds salts such as gypsum.",
+  "weights": { "dryness": 1.0, "temp_swing": 1.0, "cold": 0.0, "sunshine": 0.25, "terrain": 0.5 },
+  "facts": [
+   {
+    "label": "Gypsum link to Earth",
+    "value": "Gale was chosen partly because its central mound is thought to hold gypsum; Cuatro Ciénegas is a gypsum-rich analog",
+    "source_url": "https://science.nasa.gov/earth/earth-observatory/gypsum-on-earth-and-mars-80502/"
+   },
+   {
+    "label": "Gravity",
+    "value": "3.73 m/s² (≈3/8 of Earth)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+   },
+   {
+    "label": "Air pressure",
+    "value": "6.36 mb (≈0.6% of Earth), 95.1% CO₂",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+   },
+   {
+    "label": "Average temperature",
+    "value": "≈−59 °C (214 K)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+   }
+  ],
+  "earth_cannot_simulate": [
+   "~3/8 g gravity (3.73 m/s²)",
+   "Thin CO₂ atmosphere (≈6 mbar)",
+   "Radiation environment (no global magnetic field)",
+   "Global dust storms"
+  ]
+ }
+}
