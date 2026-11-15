@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analog MX — Moon &amp; Mars analog finder for northern Mexico</title>
+  <meta name="description" content="Score every cell of northern Mexico against a lunar or Martian landing site profile using open NASA and ESA data.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <header>
+      <h1>Analog MX</h1>
+      <p class="tagline">Where in northern Mexico should you test hardware before sending it to the Moon or Mars?</p>
+    </header>
+
+    <section>
+      <h2>1 · Target site</h2>
+      <div id="target-buttons" class="seg"></div>
+      <div id="target-card" class="card"></div>
+    </section>
+
+    <section>
+      <h2>2 · Validation: known analogs</h2>
+      <div id="validation"></div>
+    </section>
+
+    <section>
+      <h2>3 · Criteria weights</h2>
+      <div id="sliders"></div>
+      <button id="reset" class="btn">Reset weights</button>
+    </section>
+
+    <section>
+      <h2>4 · Top 10 candidate cells</h2>
+      <ol id="top10"></ol>
+    </section>
+
+    <footer id="footer">
+      <p><strong>Data</strong></p>
+      <ul>
+        <li><a href="https://power.larc.nasa.gov/" target="_blank" rel="noopener">NASA POWER</a> climatology (temperature, precipitation, solar irradiance)</li>
+        <li><a href="https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api" target="_blank" rel="noopener">NASA GIBS</a> Blue Marble shaded relief basemap</li>
+        <li><a href="https://registry.opendata.aws/copernicus-dem/" target="_blank" rel="noopener">Copernicus DEM GLO-90</a> (ESA) terrain</li>
+        <li><a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> country boundaries</li>
+        <li>Target-site values: sources linked in each target card</li>
+      </ul>
+      <p class="attrib">Terrain: produced using Copernicus WorldDEM-90 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.</p>
+      <p class="attrib">Moon/Mars terrain profiles: NASA LRO LOLA and MGS MOLA DEMs (USGS Astrogeology mosaics).</p>
+      <p>Built for NASA Space Apps Challenge 2026 · <a href="https://github.com/AVIVVVVVV/analog-mx" id="repo-link" target="_blank" rel="noopener">Source code</a></p>
+    </footer>
+  </aside>
+
+  <main id="map-wrap">
+    <div id="map"></div>
+    <div id="legend" class="card"></div>
+    <div id="site-panel" class="card" hidden>
+      <button id="close-panel" class="close" aria-label="Close">×</button>
+      <div id="site-content"></div>
+    </div>
+  </main>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="score.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
