@@ -1,0 +1,20 @@
+{
+ "sites": [
+  {
+   "name": "El Pinacate, Sonora",
+   "lat": 31.77,
+   "lon": -113.49,
+   "expected_target": "moon",
+   "why": "Volcanic field where NASA trained Apollo astronauts in 1965–1970.",
+   "source_url": "https://science.nasa.gov/earth/earth-observatory/pinacate-biosphere-reserve-3923"
+  },
+  {
+   "name": "Cuatro Ciénegas, Coahuila",
+   "lat": 26.9,
+   "lon": -102.1,
+   "expected_target": "mars",
+   "why": "Gypsum dune basin used as an analog for Gale Crater's sulfate deposits.",
+   "source_url": "https://science.nasa.gov/earth/earth-observatory/gypsum-on-earth-and-mars-80502/"
+  }
+ ]
+}
