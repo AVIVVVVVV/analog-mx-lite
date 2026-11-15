@@ -41,6 +41,17 @@ We check two places NASA has already used as analogs. The goal was to get each o
 2. "Terrain variation" is only the height difference between neighbouring grid points. It is not slope and says nothing about rocks or soil.
 3. All criteria are relative to northern Mexico. No place on Earth gets close to the Moon's or Mars's temperatures, air pressure or gravity.
 
+## More docs
+
+- [docs/guide.md](docs/guide.md): the whole project explained in plain words
+- [docs/slides.md](docs/slides.md): content for the presentation slides
+- [docs/submission.md](docs/submission.md): Space Apps submission text and video script
+
 ## Credits
 
-Built for the NASA Space Apps Challenge 2026. Code written with the help of Claude Code (AI coding assistant), reviewed by the team. Every number comes from NASA POWER or a linked NASA source. No NASA endorsement is implied.
+- **Habib**: idea, review and demo
+- **Claude Code** (AI coding assistant): code written with its help, reviewed by the team
+- **Data:** [NASA POWER](https://power.larc.nasa.gov/) · [NASA GIBS](https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api) · [NASA Moon fact sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html) · [NASA Mars fact sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html) · [Natural Earth](https://www.naturalearthdata.com/)
+- **Map library:** [Leaflet](https://leafletjs.com/)
+
+Built for the NASA Space Apps Challenge 2026. No NASA endorsement is implied.
