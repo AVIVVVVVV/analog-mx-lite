@@ -54,8 +54,6 @@ h3 { margin: 0 0 6px; font-size: 16px; }
 .score-big { font-size: 34px; font-weight: 800; color: var(--accent); line-height: 1; }
 ul.tight { margin: 4px 0; padding-left: 18px; }
 #footer { margin-top: 26px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; }
-#footer ul { padding-left: 16px; margin: 4px 0; }
-.attrib { font-style: italic; }
 .leaflet-container { font: inherit; }
 .known-marker { background: #fff; border: 3px solid var(--accent); border-radius: 50%; box-shadow: 0 0 6px #000; }
 .leaflet-tooltip { background: var(--panel2); color: var(--text); border-color: var(--line); }
@@ -67,5 +65,4 @@ ul.tight { margin: 4px 0; padding-left: 18px; }
   .seg button { font-size: 12px; padding: 8px 4px; }
   #site-panel { position: fixed; top: auto; bottom: 8px; left: 8px; right: 8px; width: auto; max-height: 60vh; }
 }
-details { margin-top: 8px; }
-summary { cursor: pointer; color: var(--accent); font-size: 13px; font-weight: 600; }
+.facts { margin: 6px 0 0; }
